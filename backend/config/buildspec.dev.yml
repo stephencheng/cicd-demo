@@ -5,12 +5,9 @@ phases:
     runtime-versions:
       nodejs: 16
     commands:
+      - cd backend
       - echo Installing serverless
       - npm install -g serverless
-      - echo Installing todo API dependencies
-      - cd backend
-      - npm install
-      - echo Finished installing todo API dependencies
   build:
     commands:
       - echo Deploying todo API
