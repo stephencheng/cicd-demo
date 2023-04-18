@@ -1,0 +1,13 @@
+#keep commented out folders and files for reference only, they can be build from source or ts files actually
+
+# *.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+.envrc
+# cdk.out
+/cicd/teamcity/trial-test/data
+/cicd/teamcity/trial-test/logs
