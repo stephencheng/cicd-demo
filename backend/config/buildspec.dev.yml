@@ -9,7 +9,7 @@ phases:
       - npm install -g serverless
       - echo Installing todo API dependencies
       - cd backend
-      - npm install --silent
+      - npm install
       - echo Finished installing todo API dependencies
   build:
     commands:
